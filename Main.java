@@ -42,7 +42,7 @@ public class Main {
 
         PrioritySorter.insertionSort(packages);
 
-        System.out.println("\nDespués de Insertion Sort:");
+        System.out.println("\nDespues de Insertion Sort:");
         for (Package<?> p : packages) {
             System.out.println(p.getId() + " - prioridad " + p.getPriority());
         }
