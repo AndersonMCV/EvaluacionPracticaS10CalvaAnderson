@@ -66,6 +66,6 @@ public class RouteManager<T> implements IContainer<T> {
 
     @Override
     public T get(String id) {
-        return null; // No aplica directamente para rutas
+        return null; 
     }
 }
